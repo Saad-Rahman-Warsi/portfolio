@@ -2,6 +2,7 @@ import { Container, Row, Col, Card, Button, Navbar, Nav, Image } from "react-boo
 import { Outlet, Link } from "react-router-dom";
 import { FaHome, FaGithub, FaLinkedin, FaEnvelope, FaYoutube } from "react-icons/fa";
 
+
 const Layout = () => {
   return (
     <div>
@@ -18,7 +19,7 @@ const Layout = () => {
               <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
               <Nav.Link as={Link} to="/certification">Certification</Nav.Link>
               <Nav.Link href="/resume.pdf" target="_blank">Resume</Nav.Link>
-              <Nav.Link href="http://localhost:3000/#other">Other</Nav.Link>
+              <Nav.Link href="https://Saad-Rahman-Warsi.github.io/portfolio#other">Other</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -31,7 +32,7 @@ const Layout = () => {
             {/* Profile Image */}
             <Col xs={12} md="auto">
               <Image
-                src="/myphoto.jpg"
+                src={'${process.env.PUBLIC_URL}/myphoto.jpg'}
                 roundedCircle
                 fluid
                 alt="Saad Rahman Warsi"
