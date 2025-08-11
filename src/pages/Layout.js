@@ -1,6 +1,9 @@
 import { Container, Row, Col, Card, Button, Navbar, Nav, Image } from "react-bootstrap";
 import { Outlet, Link } from "react-router-dom";
 import { FaHome, FaGithub, FaLinkedin, FaEnvelope, FaYoutube } from "react-icons/fa";
+import { HashLink } from 'react-router-hash-link';
+import myPhoto from '../images/myphoto.jpg';
+import resume from '../files/resume.pdf';
 
 
 const Layout = () => {
@@ -9,7 +12,7 @@ const Layout = () => {
       {/* Navigation Bar */}
       <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
         <Container>
-          <Navbar.Brand as={Link} to="/">Saad Rahman Warsi</Navbar.Brand>
+          <Navbar.Brand as={Link} to="/">Saad Rahman Warsi </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
@@ -18,8 +21,8 @@ const Layout = () => {
               <Nav.Link as={Link} to="/experience">Experience</Nav.Link>
               <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
               <Nav.Link as={Link} to="/certification">Certification</Nav.Link>
-              <Nav.Link href="/resume.pdf" target="_blank">Resume</Nav.Link>
-              <Nav.Link href="https://Saad-Rahman-Warsi.github.io/portfolio#other">Other</Nav.Link>
+              <Nav.Link href={resume} target="_blank">Resume</Nav.Link>
+              <Nav.Link as={HashLink} smooth to="/#other">Other</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -32,7 +35,7 @@ const Layout = () => {
             {/* Profile Image */}
             <Col xs={12} md="auto">
               <Image
-                src={'${process.env.PUBLIC_URL}/myphoto.jpg'}
+                src={myPhoto}
                 roundedCircle
                 fluid
                 alt="Saad Rahman Warsi"

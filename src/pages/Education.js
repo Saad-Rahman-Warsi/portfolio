@@ -1,21 +1,22 @@
 // src/pages/Education.jsx
 import React from "react";
 import { Container, Row, Col, Button, Card, Carousel } from "react-bootstrap";
+import transcript from '../files/transcript.pdf';
 
-const transcriptFile = "/files/transcript.pdf"; // Place transcript in public/files/
+const transcriptFile = "${process.env.PUBLIC_URL}/files/transcript.pdf"; // Place transcript in public/files/
 
 // Certificates array — replace paths with actual image locations in public/certificates/
 const certificates = [
-  "/certificates/certificate1.png",
-  "/certificates/certificate2.png",
-  "/certificates/certificate3.png",
-  "/certificates/certificate4.png",
-  "/certificates/certificate5.png",
-  "/certificates/certificate6.png",
-  "/certificates/certificate7.png",
-  "/certificates/certificate8.png",
-  "/certificates/certificate9.png",
-  "/certificates/certificate10.png",
+  require('../images/certificates/certificate1.png'),
+  require('../images/certificates/certificate2.png'),
+  require('../images/certificates/certificate3.png'),
+  require('../images/certificates/certificate4.png'),
+  require('../images/certificates/certificate5.png'),
+  require('../images/certificates/certificate6.png'),
+  require('../images/certificates/certificate7.png'),
+  require('../images/certificates/certificate8.png'),
+  require('../images/certificates/certificate9.png'),
+  require('../images/certificates/certificate10.png'),
 ];
 
 export default function Education() {
@@ -42,7 +43,7 @@ export default function Education() {
                 <li>Achieved Dean's Honour List recognition for every academic term in uOttawa</li>
                 <li>Received Merit Scholarship (International Student) for 2021, 2022, 2023 and 2024</li>
               </ul>
-              <Button variant="primary" href={transcriptFile} download>
+              <Button variant="primary" href={transcript} download>
                 📄 Download Transcript
               </Button>
             </Card.Body>

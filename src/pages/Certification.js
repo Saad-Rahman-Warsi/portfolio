@@ -6,13 +6,13 @@ const Certification = () => {
   const certificates = [
     {
       title: "Microsoft Certified: Azure Fundamentals",
-      img: "/images/azure_saad.jpg",
+      img: require('../images/azure_saad.jpg'),
       description: "Earned Microsoft Certified: Azure Fundamentals credential.",
       linkCert: "https://learn.microsoft.com/en-us/users/saadrahmanwarsi-1954/credentials/b632ecc8ee30198a"
     },
     {
       title: "Professional Scrum Master (PSM I) Certification",
-      img: "/images/psm_saad.jpg",
+      img: require('../images/psm_saad.jpg'),
       description: "Certified Professional Scrum Master I by Scrum.org.",
       linkCert: "https://www.credly.com/badges/077fdb14-9ec0-4476-91a0-f8f97c2574e6/linked_in?t=s5zuls"
     }
