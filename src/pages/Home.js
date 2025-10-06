@@ -1,5 +1,7 @@
 import { Container, Row, Col, Card, Button, Navbar, Nav, Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaEnvelope, FaYoutube } from "react-icons/fa";
+import resume from '../files/resume.pdf';
 
 const Home = () => {
   return (
@@ -8,21 +10,22 @@ const Home = () => {
       <Container id="about" className="my-5">
         <h2>About Me</h2>
         <p>
-          I am a positive and self-motivated final-year BASc Software Engineering student at the 
-          University of Ottawa, currently completing my full-time co-op term at Agriculture and 
-          Agri-Food Canada (AAFC). With a strong foundation in programming, problem-solving, and 
-          mathematics, I thrive in tackling complex and challenging assignments that demand both 
-          analytical thinking and technical expertise. My professional journey spans enriching co-op 
-          experiences at the Canada Revenue Agency (CRA), Cision, and AAFC, where I honed my skills 
-          in cloud computing and web development. A quick learner by nature, I continuously push 
-          myself to grow—embracing challenges as opportunities to innovate, adapt, and excel.
+          Result-driven and versatile Software Engineering student (uOttawa, CGPA: 9.57/10) 
+          with 1.5+ years of hands-on experience in cloud computing, DevOps, and full-stack development. 
+          Proven success in delivering reliable, efficient, and scalable solutions during internships 
+          at Agriculture and Agri-Food Canada, Canada Revenue Agency, and CNW Group. Skilled in Java, 
+          Spring Boot, Angular, Docker, Kubernetes, and GCP. Certified in Microsoft Azure Fundamentals 
+          and Professional Scrum Master I. Adept at collaborating in Agile environments and committed 
+          to building secure, efficient, and user-centric applications. Recognized for consistent 
+          academic excellence (Dean’s Honour List, Merit Scholarships). Strong problem-solver and 
+          quick learner. Fluent in English and Hindi; beginner in French.
 
         </p>
       </Container>
 
       {/* Education Section */}
       <Container id="education" className="my-5">
-        <h2>Education <Button variant="outline-primary" href="/education"> Education Details </Button> </h2>
+        <h2>Education <Button variant="outline-primary" as={Link} to="/education"> Education Details </Button> </h2>
         <ul>
           <li>Pursuing <b>Bachelor of Applied Science in Software Engineering (CO-OP) University of Ottawa(CGPA : 9.57).</b></li>
           <li>Expected to complete my studies in December 2025.</li>
@@ -34,7 +37,7 @@ const Home = () => {
 
       {/* Experience Section */}
       <Container id="experience" className="my-5">
-        <h2>Experience <Button variant="outline-primary" href="/experience"> Experience Details </Button></h2>
+        <h2>Experience <Button variant="outline-primary" as={Link} to="/experience"> Experience Details </Button></h2>
         <ul>
           <li>Student FSWEP (Coop, Full Time), Agriculture and Agri-Food Canada (AAFC), Ottawa (From May 2025 to Aug 2025).</li>
           <li>Student FSWEP (Part Time), Agriculture and Agri-Food Canada (AAFC), Ottawa (From Sep 2024 to Apr 2025).</li>
@@ -46,7 +49,7 @@ const Home = () => {
 
       {/* Projects Section */}
       <Container id="projects" className="my-5">
-        <h2>Projects Summary <Button variant="outline-primary" href="/projects"> Project Details </Button></h2>
+        <h2>Projects Summary <Button variant="outline-primary" as={Link} to="/projects"> Project Details </Button></h2>
         <h5>DevOps Projects</h5>
         <ul>
           <li> <b>Enhancement of PharmFinder: Pharmacy Recruitment Platform for DPR Group Inc.:</b>
@@ -104,7 +107,7 @@ Management using the Solace cloud to help the earthquake victims</li>
       {/* Resume Section */}
       <Container id="resume" className="my-5 text-center">
         <h2>Resume</h2>
-        <Button variant="outline-primary" href="/resume.pdf" target="_blank">
+        <Button variant="outline-primary" href={resume} target="_blank">
           Download Resume
         </Button>
       </Container>
