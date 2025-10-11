@@ -53,16 +53,19 @@ const Home = () => {
         <h5>DevOps Projects</h5>
         <ul>
           <li> <b>Enhancement of PharmFinder: Pharmacy Recruitment Platform for DPR Group Inc.:</b>
-          Collaborated in a six-member agile team to enhance PharmFinder, the recruitment platform used 
+          Collaborated in a five-member agile team to enhance PharmFinder, the recruitment platform used 
           by D’Angelo Pharmacy Recruitment Group (DPR Group Inc.), Canada’s leading pharmacy talent acquisition 
           firm. I contributed to the DevOps requirements of the project by configuring and managing 
           Kubernetes clusters.</li>
         </ul>
         <h5>Web Projects</h5>
         <ul>
+          <li> <a href="https://mathgraphics-9edbf.web.app/">Mathemagical Shapeplay</a>: Devloped an interactive web project that generates beautiful animations
+              and patterns derived from mathematical equations </li>
           <li>Designed some web user interfaces using HTML, CSS, JavaScript, Bootstrap & React viz.
-            (i) “CareerJump” offering mock interviews, group discussions, aptitude tests and personality
-            development sessions (ii) “SciPlanet” offering scientific laboratories to the public
+            (i) <a href="https://saad-rahman-warsi.github.io/splanet/">SciPlanet</a> offering scientific laboratories to the public
+            (ii) <a href="https://saad-rahman-warsi.github.io/careerjump">CareerJump</a> offering mock interviews, group discussions, aptitude tests and personality
+            development sessions
           </li>
         </ul>
         <h5>Testing Projects</h5>

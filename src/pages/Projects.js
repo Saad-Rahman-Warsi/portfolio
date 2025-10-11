@@ -7,10 +7,19 @@ const Projects = () => {
       title: "Enhancement of PharmFinder: Pharmacy Recruitment Platform for DPR Group Inc.",
       image: require('../images/blank.jpg'),
       description: `
-        Collaborated in a six-member agile team to enhance PharmFinder, the recruitment platform used by D’Angelo Pharmacy Recruitment Group (DPR Group Inc.), Canada’s leading pharmacy talent acquisition firm. Contributed to DevOps requirements by configuring and managing Kubernetes clusters. Worked with a React front end, Java Spring Boot backend, and PostgreSQL database. Utilized GitHub for version control and Confluence + Jira for project documentation.
+        Collaborated in a five-member agile team to enhance PharmFinder, the recruitment platform used by D’Angelo Pharmacy Recruitment Group (DPR Group Inc.), Canada’s leading pharmacy talent acquisition firm. Contributed to DevOps requirements by configuring and managing Kubernetes clusters. Worked with a React front end, Java Spring Boot backend, and PostgreSQL database. Utilized GitHub for version control and Confluence + Jira for project documentation.
       `,
       tech: ["DevOps", "Kubernetes", "React", "Spring Boot", "PostgreSQL", "Github", "Jira"],
       link: ""
+    },
+    {
+      title: "Mathemagical Shapeplay: Interactive Mathematical Equation-Based Animation Generator.",
+      image: require('../images/mathproj.jpg'),
+      description: `
+        This project is an interactive web application built with React JS that dynamically generates beautiful animations derived from mathematical equations. Each animation produces mesmerizing patterns and evolving shapes that are both educational and artistically appealing. The application allows users to customize various parameters in real time, including:Pen Color, Animation Speed, Background Color, Start and End Point. Customization parameters allows one to be creative and generate different types of patterns.
+      `,
+      tech: ["React", "Bootstrap", "JavaScript"],
+      link: "https://mathgraphics-9edbf.web.app/"
     },
     {
       title: "UI Development for a Public Scientific Laboratory Sci-Planet",
@@ -22,15 +31,6 @@ const Projects = () => {
       link: "https://saad-rahman-warsi.github.io/splanet/"
     },
     {
-      title: "UI Development for CareerJump – Prototype Career Services Platform",
-      image: require('../images/careerjump.png'),
-      description: `
-        Designed and developed the user interface for CareerJump, a prototype career services platform offering mock interviews, group discussions, aptitude tests, and personality development sessions. Applied modern UI development practices to create a responsive, intuitive, and visually engaging interface that enhances user experience and accessibility.
-      `,
-      tech: ["React", "Bootstrap", "JavaScript"],
-      link: "https://saad-rahman-warsi.github.io/careerjump"
-    },
-    {
       title: "Comprehensive Software Testing of the Web Application: Online Book Store",
       image: require('../images/blank.jpg'),
       description: `
@@ -38,6 +38,15 @@ const Projects = () => {
       `,
       tech: ["JUnit", "Selenium", "JMH", "PITest", "Mockito", "JaCoCo"],
       link: ""
+    },
+    {
+      title: "UI Development for CareerJump – Prototype Career Services Platform",
+      image: require('../images/careerjump.png'),
+      description: `
+        Designed and developed the user interface for CareerJump, a prototype career services platform offering mock interviews, group discussions, aptitude tests, and personality development sessions. Applied modern UI development practices to create a responsive, intuitive, and visually engaging interface that enhances user experience and accessibility.
+      `,
+      tech: ["React", "Bootstrap", "JavaScript"],
+      link: "https://saad-rahman-warsi.github.io/careerjump"
     }
   ];
 
