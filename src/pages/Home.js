@@ -10,8 +10,8 @@ const Home = () => {
       <Container id="about" className="my-5">
         <h2>About Me</h2>
         <p>
-          Result-driven and versatile Software Engineering student (uOttawa, CGPA: 9.57/10) 
-          with 1.5+ years of hands-on experience in cloud computing, DevOps, and full-stack development. 
+          Result-driven and versatile Software Engineer (uOttawa, CGPA: 9.55/10) 
+          with ~2 years of hands-on experience in cloud computing, DevOps, and full-stack development. 
           Proven success in delivering reliable, efficient, and scalable solutions during internships 
           at Agriculture and Agri-Food Canada, Canada Revenue Agency, and CNW Group. Skilled in Java, 
           Spring Boot, Angular, Docker, Kubernetes, and GCP. Certified in Microsoft Azure Fundamentals 
@@ -27,11 +27,10 @@ const Home = () => {
       <Container id="education" className="my-5">
         <h2>Education <Button variant="outline-primary" as={Link} to="/education"> Education Details </Button> </h2>
         <ul>
-          <li>Pursuing <b>Bachelor of Applied Science in Software Engineering (CO-OP) University of Ottawa(CGPA : 9.57).</b></li>
-          <li>Expected to complete my studies in December 2025.</li>
+          <li> <b>Bachelor of Applied Science in Software Engineering (CO-OP) University of Ottawa(CGPA : 9.55)</b> (2021-25).</li>
+          <li>Dean’s Honour List (2021–2025)</li>
+          <li>University Merit Scholarship (2021–2025)</li>
           <li>Scored 10/10 TGPA in Fall 2021, Winter 2022 and Winter 2025.</li>
-          <li>Achieved Dean's Honour List recognition for every academic term in uOttawa</li>
-          <li>Received Merit Scholarship (International Student) for 2021, 2022, 2023 and 2024</li>
         </ul>
       </Container>
 
@@ -39,6 +38,8 @@ const Home = () => {
       <Container id="experience" className="my-5">
         <h2>Experience <Button variant="outline-primary" as={Link} to="/experience"> Experience Details </Button></h2>
         <ul>
+          <li>Casual Worker (Full Time), Agriculture and Agri-Food Canada (AAFC), Ottawa (From Jan 2026 to Present).</li>
+          <li>Student FSWEP (Part Time), Agriculture and Agri-Food Canada (AAFC), Ottawa (From Aug 2025 to Dec 2025).</li>
           <li>Student FSWEP (Coop, Full Time), Agriculture and Agri-Food Canada (AAFC), Ottawa (From May 2025 to Aug 2025).</li>
           <li>Student FSWEP (Part Time), Agriculture and Agri-Food Canada (AAFC), Ottawa (From Sep 2024 to Apr 2025).</li>
           <li>Student Co-op, Agriculture and Agri-Food Canada (AAFC), Ottawa (From May 2024 to Aug 2024).</li>

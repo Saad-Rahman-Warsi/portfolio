@@ -33,15 +33,15 @@ export default function Education() {
                 University of Ottawa, Canada
               </Card.Subtitle>
               <p>
-                <strong>CGPA:</strong> 9.57 / 10.0
+                <strong>CGPA:</strong> 9.55 / 10.0
               </p>
               <p>
-                <strong>Expected to Complete Study by:</strong> December 31, 2025
+                 (2021 - 2025)
               </p>
               <ul>
+                <li>Dean’s Honour List (2021–2025)</li>
+                <li>University Merit Scholarship (2021–2025)</li>
                 <li>Scored 10/10 TGPA in Fall 2021, Winter 2022 and Winter 2025.</li>
-                <li>Achieved Dean's Honour List recognition for every academic term in uOttawa</li>
-                <li>Received Merit Scholarship (International Student) for 2021, 2022, 2023 and 2024</li>
               </ul>
               <Button variant="primary" href={transcript} download>
                 📄 Download Transcript
