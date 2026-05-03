@@ -9,28 +9,28 @@ const Home = () => {
       {/* About Section */}
       <Container id="about" className="my-5">
         <h2>About Me</h2>
-        <p>
-          Result-driven and versatile Software Engineer (uOttawa, CGPA: 9.55/10) 
-          with ~2 years of hands-on experience in cloud computing, DevOps, and full-stack development. 
-          Proven success in delivering reliable, efficient, and scalable solutions during internships 
-          at Agriculture and Agri-Food Canada, Canada Revenue Agency, and CNW Group. Skilled in Java, 
-          Spring Boot, Angular, Docker, Kubernetes, and GCP. Certified in Microsoft Azure Fundamentals 
-          and Professional Scrum Master I. Adept at collaborating in Agile environments and committed 
-          to building secure, efficient, and user-centric applications. Recognized for consistent 
-          academic excellence (Dean’s Honour List, Merit Scholarships). Strong problem-solver and 
-          quick learner. Fluent in English and Hindi; beginner in French.
-
-        </p>
-      </Container>
-
-      {/* Education Section */}
-      <Container id="education" className="my-5">
-        <h2>Education <Button variant="outline-primary" as={Link} to="/education"> Education Details </Button> </h2>
         <ul>
-          <li> <b>Bachelor of Applied Science in Software Engineering (CO-OP) University of Ottawa(CGPA : 9.55)</b> (2021-25).</li>
-          <li>Dean’s Honour List (2021–2025)</li>
-          <li>University Merit Scholarship (2021–2025)</li>
-          <li>Scored 10/10 TGPA in Fall 2021, Winter 2022 and Winter 2025.</li>
+          <li>I am a Software Developer with hands‑on experience building and supporting backend, cloud, 
+          and data‑driven systems in SaaS environments. </li>
+  
+          <li> I am currently working full‑time at Agriculture and Agri‑Food Canada (AAFC) following graduation, 
+          where I contribute to backend services, automated data pipelines, and containerized deployments 
+          used in research and analytics workflows. </li>
+  
+          <li> My experience spans AAFC, Canada Revenue Agency (CRA), and CNW Group (Cision), where I’ve 
+          worked with Java, Python, REST APIs, Docker, Kubernetes, GCP, and SQL databases in Agile teams. 
+          I enjoy writing clean, reliable code and contributing to systems that need to be scalable, 
+          secure, and dependable. </li>
+  
+          <li> I am authorized to work full‑time in Canada (PGWP) and hold Reliability Security Clearance. 
+          I am open to Software Developer, Application Developer, Backend Developer, Systems Analyst, 
+          and QA Automation roles across Canada, including contract and permanent opportunities. </li>
+  
+          <li>Tech stack: Java, Python, Spring Boot, REST APIs, Docker, Kubernetes, GCP, Azure, PostgreSQL, 
+            CI/CD, Angular, React, Agile </li>
+
+          <li>Open to relocation and onsite opportunities across Canada. </li>
+
         </ul>
       </Container>
 
@@ -45,6 +45,17 @@ const Home = () => {
           <li>Student Co-op, Agriculture and Agri-Food Canada (AAFC), Ottawa (From May 2024 to Aug 2024).</li>
           <li>IT Programmer Analyst, Canada Revenue Agency (CRA), Ottawa (From Sep 2023 to Dec 2023).</li>
           <li>Software Developer Intern, CNW Group Ltd. - Cision, Ottawa (From Jan 2023 to Apr 2023).</li>
+        </ul>
+      </Container>
+
+      {/* Education Section */}
+      <Container id="education" className="my-5">
+        <h2>Education <Button variant="outline-primary" as={Link} to="/education"> Education Details </Button> </h2>
+        <ul>
+          <li> <b>Bachelor of Applied Science in Software Engineering (CO-OP) University of Ottawa(CGPA : 9.55)</b> (2021-25).</li>
+          <li>Dean’s Honour List (2021–2025)</li>
+          <li>University Merit Scholarship (2021–2025)</li>
+          <li>Scored 10/10 TGPA in Fall 2021, Winter 2022 and Winter 2025.</li>
         </ul>
       </Container>
 
