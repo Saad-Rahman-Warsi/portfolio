@@ -17,8 +17,8 @@ const Layout = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link as={Link} to="/"> <FaHome /> </Nav.Link>
-              <Nav.Link as={Link} to="/education">Education</Nav.Link>
               <Nav.Link as={Link} to="/experience">Experience</Nav.Link>
+              <Nav.Link as={Link} to="/education">Education</Nav.Link>
               <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
               <Nav.Link as={Link} to="/certification">Certification</Nav.Link>
               <Nav.Link href={resume} target="_blank">Resume</Nav.Link>
@@ -52,11 +52,9 @@ const Layout = () => {
             <Col xs={12} md={8}>
               <h1 className="fs-3 fs-md-1">Saad Rahman Warsi</h1>
               <p className="fs-6 fs-md-5 mb-0">
-                Software Engineer | Web Developer | Cloud Enthusiast
+                Software Engineer | Backend | Cloud | DevOps
                 <br />
-                
-                  Microsoft Certified: Azure Fundamentals, Professional Scrum Master I Certified
-                
+                  Java, REST APIs, Docker, GCP | AAFC | PGWP
               </p>
             </Col>
 

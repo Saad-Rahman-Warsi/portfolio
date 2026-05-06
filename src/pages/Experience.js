@@ -9,11 +9,11 @@ const Experience = () => {
           <Card.Body>
             <Card.Title>Agriculture and Agri-Food Canada (AAFC)</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">
-              Casual Worker, From Jan 2026 to Present (Full Time) <br />
-              Student FSWEP, From Sep 2025 to Dec 2025 (Part Time) <br />
-              Student FSWEP, From May 2025 to Aug 2025 (Co-op, Full Time) <br />
-              Student FSWEP, From Sep 2024 to Apr 2025 (Part Time) <br />
-              Student Co-op, From May 2024 to Aug 2024 (Co-op, Full Time)
+              Software Engineer (Contract, Full-Time), From Jan 2026 to Present  <br />
+              Software Engineer (Part Time), From Sep 2025 to Dec 2025  <br />
+              Software Engineer (Coop, Full Time), From May 2025 to Aug 2025  <br />
+              Software Engineer (Part Time), From Sep 2024 to Apr 2025  <br />
+              Software Engineer (Coop, Full Time), From May 2024 to Aug 2024 
             </Card.Subtitle>
             <Card.Text>
 
