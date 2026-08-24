@@ -38,11 +38,7 @@ const Home = () => {
       <Container id="experience" className="my-5">
         <h2>Experience <Button variant="outline-primary" as={Link} to="/experience"> Experience Details </Button></h2>
         <ul>
-          <li>Software Engineer (Contract, Full-Time), Agriculture and Agri-Food Canada (AAFC), Ottawa (From Jan 2026 to Present).</li>
-          <li>Software Engineer (Part Time), Agriculture and Agri-Food Canada (AAFC), Ottawa (From Aug 2025 to Dec 2025).</li>
-          <li>Software Engineer (Coop, Full Time), Agriculture and Agri-Food Canada (AAFC), Ottawa (From May 2025 to Aug 2025).</li>
-          <li>Software Engineer (Part Time), Agriculture and Agri-Food Canada (AAFC), Ottawa (From Sep 2024 to Apr 2025).</li>
-          <li>Software Engineer (Coop, Full Time), Agriculture and Agri-Food Canada (AAFC), Ottawa (From May 2024 to Aug 2024).</li>
+          <li>Research Assistant (Current Position), Agriculture and Agri-Food Canada (AAFC), Ottawa (From May 2024 - Jun 2026, Aug 2026 - Present).</li>
           <li>IT Programmer Analyst, Canada Revenue Agency (CRA), Ottawa (From Sep 2023 to Dec 2023).</li>
           <li>Software Developer Intern, CNW Group Ltd. - Cision, Ottawa (From Jan 2023 to Apr 2023).</li>
         </ul>

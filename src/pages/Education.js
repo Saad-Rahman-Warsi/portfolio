@@ -3,7 +3,7 @@ import React from "react";
 import { Container, Row, Col, Button, Card, Carousel } from "react-bootstrap";
 import transcript from '../files/transcript.pdf';
 
-const transcriptFile = "${process.env.PUBLIC_URL}/files/transcript.pdf"; // Place transcript in public/files/
+//const transcriptFile = "${process.env.PUBLIC_URL}/files/transcript.pdf"; // Place transcript in public/files/
 
 // Certificates array — replace paths with actual image locations in public/certificates/
 const certificates = [
